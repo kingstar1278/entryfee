@@ -1,0 +1,162 @@
+.container{
+  min-height: 100vh;
+  border-style: solid;
+  margin: auto;
+  width: 30%;
+}
+.main{
+  height: 30vh;
+  border-bottom-style: solid;
+  margin: auto;
+  width: 100%;
+}
+.main h2{
+  position: relative;
+  padding-left: 100px;
+}
+.main input{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+.main li{
+  list-style: none;
+  padding-left: 6.5em;
+  line-height: 1.5em;
+}
+.submain{
+  height: 70vh;
+}
+.selectform1{
+  display: inline-block;
+}
+.selectform1 label{
+  font-weight: 1000;
+  float: left;
+  margin-left: 50px;
+}
+.selectform1 select{
+  float: right;
+  margin-left: 120px;
+  border: none;
+  
+}
+.table h2{
+  text-indent: 50px;
+}
+.table table{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  border-radius: 1px;
+  border-color: black;
+}
+.table td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 1px;
+}
+.table tr{
+  border-radius: 1px solid black;
+}
+.table label{
+  font-weight: 1000;
+  padding-top: 5px;
+  float: left;
+  margin-left: 80px;
+  
+}
+.table select{
+  
+  float: right;
+  margin-right: 100px;
+  border: none;
+  
+}
+.selectform2{
+  display: inline-block;
+}
+.selectform2 label{
+  float: left;
+  margin-left: 50px;
+  padding-top: 50px ;
+  padding-right: 150px;
+  font-weight: 1000;
+}
+.selectform2 select{
+  float: right;
+  margin-right: 120px;
+  border: none;
+}
+.radiodept{
+    
+  min-height: 100vh;
+  border-style: solid;
+  margin: auto;
+  width: 30%;
+}
+.radio{
+  height: 10vh;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.radio input{
+  margin-top: 30px;
+  float: left;
+  margin-left: 30px;
+  
+  
+}
+.radio label{
+  padding-top: 30px;
+  float: left;
+}
+.freeoption{
+  height: 90vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.paidoption{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.choose input{
+  border: 1px solid;
+  width: 100px;
+   
+  
+  
+}
+.choose label{
+  
+  margin-right: 50px;
+  
+}
+.choose button{
+  margin-top: 150px;
+  float: left;
+  margin-left: 150px;
+}
+@media only screen and (max-width: 781px){
+.container{ 
+   width: 100% ;
+}
+.radiodept{
+  width: 100%;
+  
+}
+}
